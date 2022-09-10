@@ -1,0 +1,12 @@
+{
+  "name": "logseq-style-tweaks",
+  "version": "1.0.0",
+  "author": "psu",
+  "main": "index.js",
+  "description": "",
+  "license": "MIT",
+  "logseq": {
+    "id": "logseq-style-tweaks",
+    "title": "Style Tweaks"
+  }
+}
