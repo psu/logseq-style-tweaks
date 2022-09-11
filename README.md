@@ -2,27 +2,27 @@
 
 This is a smorgasbord of small and large tweaks, activate the ones you like. The plugin is to be used together with the default themes (or custom ones) to tweak specific parts of Logseq's UI. List of tweaks:
 
-1. **Tags as rounded chips**
+1. **Tags as rounded chips**  
    Display tags as chips with rounded sides, background color, and uppercase.
-2. **Smaller headings**
+2. **Smaller headings**  
    Display page title and headings in smaller sizes.
-3. **System default font family**
+3. **System default font family**  
    Replace the font family for text and UI with the system default.
-4. **Left sidebar always dark**
+4. **Left sidebar always dark**  
    Use a dark left sidebar for both light and dark themes, in the style of Bear editor.
-5. **Fix code block background**
+5. **Fix code block background**  
    Make code blocks use standard variables for background colors.
-6. **Harmonise header icons color**
+6. **Harmonise header icons color**  
    Make all header icons have the same color.
-7. **Close button color**
+7. **Close button color**  
    Make the close buttons less eye-catching.
-8. **Resize left sidebar**
+8. **Resize left sidebar**  
    Widen the left sidebars a bit.
-9. **Harmonise "meta" headings**
+9. **Harmonise "meta" headings**  
    Set the same font for references, hierarchy, and custom query titles.
-10. **Tasks as chips**
+10. **Tasks as chips**  
     Display tasks as a chip togheter with its label.
-11. **@-tags as rounded chips**
+11. **@-tags as rounded chips**  
     Display tags starging with at "@" as chips with a rounded border and capitalised.
 
 ![Demo image](./demo.png)
