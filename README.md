@@ -25,6 +25,8 @@ This is a smorgasbord of small and large tweaks, activate the ones you like. The
 11. **@-tags as rounded chips**
     Display tags starging with at "@" as chips with a rounded border and capitalised.
 
+![Demo image](./demo.png)
+
 ## How to
 
 - Install it via Logseq marketplace.
@@ -39,3 +41,4 @@ It should be fairly easy to figure out how to add your own tweaks if you downloa
 
 - Figure out how to remove CSS when settings change - to be able to skip reload.
 - Add parameters to each tweak: settings-config -> process automatically into CSS.
+- Split tweaks config from settings config.
