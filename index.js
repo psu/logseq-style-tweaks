@@ -94,7 +94,6 @@ const tweaks = [
     type: 'boolean',
     default: false,
   },
-
   {
     key: 'a',
     title: 'All style tweaks',
