@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "psu",
   "main": "index.js",
-  "description": "",
+  "description": "A smorgasbord of small and large style tweaks to the Logseq UI.",
   "license": "MIT",
   "logseq": {
     "id": "logseq-style-tweaks",
