@@ -3,7 +3,7 @@ const style = `
 .page-hierarchy h2.font-bold.opacity-30,
 .custom-query-title .title-text {
   font-weight: 600;
-  opacity: 0.75;
+  opacity: 0.7;
   color: var(--ls-primary-text-color);
 }
 `
