@@ -103,6 +103,14 @@ const tweaks = [
     default: false,
   },
   {
+    key: '13',
+    file: 'ui-toggle-color',
+    title: 'UI toggle color',
+    description: 'Make UI toggles use the standard variable for checkboxes.',
+    type: 'boolean',
+    default: false,
+  },
+  {
     key: 'a',
     title: 'All style tweaks',
     description: 'Merged CSS for all active style tweaks.',
