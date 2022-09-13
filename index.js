@@ -95,6 +95,14 @@ const tweaks = [
     default: false,
   },
   {
+    key: '12',
+    file: 'lighter-text',
+    title: 'Lighter text',
+    description: 'Change normal text to weight 300, and bold text to 400.',
+    type: 'boolean',
+    default: false,
+  },
+  {
     key: 'a',
     title: 'All style tweaks',
     description: 'Merged CSS for all active style tweaks.',
@@ -105,8 +113,8 @@ const tweaks = [
 
 // entry
 const main = () => {
-  logseq.useSettingsSchema(tweaks)
-  parse_tweaks()
+  //logseq.useSettingsSchema(tweaks)
+  //parse_tweaks()
 }
 
 // parse tweaks and update style
