@@ -98,7 +98,7 @@ const tweaks = [
     key: '12',
     file: 'lighter-text',
     title: 'Lighter text',
-    description: 'Change normal text to weight 300, and bold text to 400.',
+    description: 'Change normal text to weight 300, and bold text to 500.',
     type: 'boolean',
     default: false,
   },
@@ -107,6 +107,14 @@ const tweaks = [
     file: 'ui-toggle-color',
     title: 'UI toggle color',
     description: 'Make UI toggles use the standard variable for checkboxes.',
+    type: 'boolean',
+    default: false,
+  },
+  {
+    key: '14',
+    file: 'reset-tippy-popper',
+    title: 'Reset hover window style',
+    description: 'Make the hover window look more like the rest of the UI.',
     type: 'boolean',
     default: false,
   },
@@ -121,8 +129,8 @@ const tweaks = [
 
 // entry
 const main = () => {
-  //logseq.useSettingsSchema(tweaks)
-  //parse_tweaks()
+  logseq.useSettingsSchema(tweaks)
+  parse_tweaks()
 }
 
 // parse tweaks and update style
