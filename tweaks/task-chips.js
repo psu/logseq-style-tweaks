@@ -20,7 +20,7 @@ const style = `
 .now .block-marker,
 .later .block-marker {
   background-color: var(--ls-selection-background-color);
-  color: var(--ls-primary-text-color);
+  color: var(--ls-secondary-text-color);
   opacity: 1;
   margin-left: -1.6rem;
   margin-right: .4rem;
@@ -32,6 +32,10 @@ const style = `
   font-weight: 700;
   font-size: .7rem;
   box-shadow: 
+}
+.doing .block-marker,
+.now .block-marker {
+  color: var(--ls-primary-text-color);
 }
 .doing .block-marker::before,
 .now .block-marker::before {
@@ -57,6 +61,9 @@ const style = `
 }
 .dark-theme .block-marker {
   border-color: #ffffff09;
+}
+.canceled, .cancelled, .done {
+  opacity: 0.5;
 }
 `
 export default style
