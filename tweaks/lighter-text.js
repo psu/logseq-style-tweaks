@@ -1,9 +1,24 @@
 const style = `
-  #main-content-container {
+  #app-container {
     font-weight: 300;
   }
   b, strong {
+    font-weight: 500;
+  }
+  .pre-block .opacity-50,
+  ul.namespaces,
+  .breadcrumb,
+  .breadcrumb b,
+  .references .foldable-title *:not(h2),
+  .block-properties {
+    font-size: 0.9rem;
     font-weight: 400;
+  }
+  :not(pre)>code {
+    font-size: 0.8rem;
+  }
+  .references h2 {
+    font-size: 1rem;
   }
 `
 export default style
