@@ -9,7 +9,6 @@ const style = `
   width: 1.1rem;
   border-radius: .2rem 0 0 .2rem;
   margin: .15rem .5rem 0 0 !important;
-  z-index: 99;
   font-size: .7rem;
   opacity: 1;
 }
@@ -26,8 +25,8 @@ const style = `
   margin-right: .4rem;
   padding-left: 1.5rem;
   padding-right: .4rem;
-  padding-top: .07rem;
-  padding-bottom: .09rem;
+  padding-top: .14rem;
+  padding-bottom: .16rem;
   border-radius: .2rem;
   font-weight: 700;
   font-size: .7rem;
@@ -44,7 +43,6 @@ const style = `
   position: absolute;
   left: -.05rem;
   top: 0rem;
-  z-index: 101;
   color: #fff5;
 }
 .done input {
@@ -55,9 +53,6 @@ const style = `
 }
 .waiting input {
   opacity: 0.3;
-}
-.block-marker {
-  border: 0.07rem solid #00000005;
 }
 .dark-theme .block-marker {
   border-color: #ffffff09;
