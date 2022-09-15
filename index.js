@@ -119,6 +119,15 @@ const tweaks = [
     default: false,
   },
   {
+    key: '15',
+    file: 'bullet-border-color',
+    title: 'Use active color on hover',
+    description:
+      'Add a subtle border around bullet borders and use active color on hover.',
+    type: 'boolean',
+    default: false,
+  },
+  {
     key: 'a',
     title: 'All style tweaks',
     description: 'Merged CSS for all active style tweaks.',
