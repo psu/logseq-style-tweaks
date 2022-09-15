@@ -128,6 +128,14 @@ const tweaks = [
     default: false,
   },
   {
+    key: '16',
+    file: 'ios-scrollbars',
+    title: 'iOS style scrollbars',
+    description: 'Scrollbars with no background and rounded corners.',
+    type: 'boolean',
+    default: false,
+  },
+  {
     key: 'a',
     title: 'All style tweaks',
     description: 'Merged CSS for all active style tweaks.',
