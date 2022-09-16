@@ -136,6 +136,14 @@ const tweaks = [
     default: false,
   },
   {
+    key: '17',
+    file: 'pdf-toolbar',
+    title: 'Restyle the PDF view toolbar',
+    description: 'Toolbar icons more protruding, vertical toolbar direction.',
+    type: 'boolean',
+    default: false,
+  },
+  {
     key: 'a',
     title: 'All style tweaks',
     description: 'Merged CSS for all active style tweaks.',
