@@ -10,7 +10,7 @@ const style = `
 .light-theme .page-hierarchy h2.font-bold.opacity-30,
 .light-theme .custom-query-title .title-text {
   font-weight: 600;
-  opacity: 0.85;
+  opacity: 0.8;
   color: var(--ls-primary-text-color);
 }
 `
