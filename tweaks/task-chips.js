@@ -30,7 +30,7 @@ const style = `
   border-radius: .2rem;
   font-weight: 700;
   font-size: .7rem;
-  box-shadow: 
+  box-shadow: none;
 }
 .doing .block-marker,
 .now .block-marker {
