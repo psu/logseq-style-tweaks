@@ -16,8 +16,9 @@ const style = `
 #pdf-layout-container[data-theme=light] .extensions__pdf-toolbar .buttons {
   flex-direction: column-reverse;
   align-items: center;
-  border-radius: 2px;
+  border-radius: 4px;
   background-color: rgb(249,249,249); /* #00000006 */
+  padding: 5px 0;
   color: black;
 }
 #pdf-layout-container[data-theme=warm] .extensions__pdf-toolbar .buttons {
@@ -35,7 +36,7 @@ const style = `
   margin: 0;
   font-size: 0.8rem;
   font-weight: 700;
-  letter-spacing: 0px;
+  letter-spacing: -1px;
 }
 #pdf-layout-container .extensions__pdf-toolbar a.button {
   height: 2rem;
@@ -48,7 +49,7 @@ const style = `
   height: 1.8em;
 }
 #pdf-layout-container .extensions__pdf-toolbar .buttons>div a.button {
-  height: 1.6rem;
+  height: 1.8rem;
   padding: 0;
 }
 #pdf-layout-container[data-theme=dark] .extensions__pdf-toolbar a.button {
