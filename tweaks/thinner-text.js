@@ -3,7 +3,7 @@ const style = `
     font-weight: 300;
   }
   b, strong {
-    font-weight: 500;
+    font-weight: 600;
   }
   .pre-block .opacity-50,
   ul.namespaces,

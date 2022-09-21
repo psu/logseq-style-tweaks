@@ -96,8 +96,8 @@ const tweaks = [
   },
   {
     key: '12',
-    file: 'lighter-text',
-    title: 'Lighter text',
+    file: 'thinner-text',
+    title: 'Thinner text',
     description: 'Change normal text to weight 300, and bold text to 500.',
     type: 'boolean',
     default: false,
