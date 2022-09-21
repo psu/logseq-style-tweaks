@@ -144,6 +144,15 @@ const tweaks = [
     default: false,
   },
   {
+    key: '18',
+    file: 'black-white-text',
+    title: 'Default text black or white',
+    description:
+      'Always use black or white color for the default font, to increase contrast.',
+    type: 'boolean',
+    default: false,
+  },
+  {
     key: 'a',
     title: 'All style tweaks',
     description: 'Merged CSS for all active style tweaks.',
