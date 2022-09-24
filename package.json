@@ -1,6 +1,6 @@
 {
   "name": "@psu/logseq-style-tweaks",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "psu",
   "main": "index.js",
   "description": "A smorgasbord of small and large style tweaks to the Logseq UI.",
