@@ -1,5 +1,5 @@
 {
-  "name": "logseq-style-tweaks",
+  "name": "@psu/logseq-style-tweaks",
   "version": "1.0.0",
   "author": "psu",
   "main": "index.js",
@@ -8,5 +8,20 @@
   "logseq": {
     "id": "logseq-style-tweaks",
     "title": "Style Tweaks"
-  }
+  },
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psu/logseq-style-tweaks.git"
+  },
+  "keywords": [
+    "logseq",
+    "plugin"
+  ],
+  "bugs": {
+    "url": "https://github.com/psu/logseq-style-tweaks/issues"
+  },
+  "homepage": "https://github.com/psu/logseq-style-tweaks#readme"
 }
