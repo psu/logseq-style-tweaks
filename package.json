@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/psu/logseq-style-tweaks/issues"
   },
-  "homepage": "https://github.com/psu/logseq-style-tweaks#readme"
+  "homepage": "https://github.com/psu/logseq-style-tweaks#readme",
+  "publishConfig": {
+    "@psu:registry": "https://npm.pkg.github.com"
+  }
 }
