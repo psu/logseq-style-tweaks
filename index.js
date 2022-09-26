@@ -103,6 +103,14 @@ const tweaks = [
     default: false,
   },
   {
+    key: 'ui/header_namespace',
+    title: 'Hack rename "Hierarchies"',
+    description:
+      'A hack to rename the "Hierarchies" heading to "Namespace pages".',
+    type: 'boolean',
+    default: false,
+  },
+  {
     key: 'ui/close',
     title: 'Close button color',
     description: 'Make the close buttons less eye-catching.',
