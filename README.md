@@ -46,6 +46,10 @@ This is a smorgasbord of small and large tweaks, activate the ones you like. The
   Scrollbars with no background and rounded corners.
 - **PDF view toolbar**
   Restyle the PDF view toolbar: icons more protruding, vertical toolbar direction.
+- **Filter icon**
+  Use prominent, standard colors on inactive and active filter button.
+- **Filter chips**
+  Replace border with background color on filter chips.
 
 ![Demo image](./demo.png)
 
