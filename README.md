@@ -35,7 +35,9 @@ This is a smorgasbord of small and large tweaks, activate the ones you like. The
 - **Icons color**
   Make all header icons have the same color.
 - **UI headings**
-  Set the same font for References, Hierarchy, and Custom query titles.
+  Set the same font for References, Hierarchy, Tagged pages, and Custom query titles.
+- **Hack rename "Hierarchies"**
+  A hack to rename the "Hierarchies" heading to "Namespace pages".
 - **Close button color**
   Make the close buttons less eye-catching.
 - **UI toggle color**
