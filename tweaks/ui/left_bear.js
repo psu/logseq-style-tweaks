@@ -27,19 +27,30 @@ const style = `
   font-weight: 300;
   font-size: 0.9rem;
 }
-.left-sidebar-inner .new-page-link {
-  background-color: transparent;
-}
 .ls-left-sidebar-open #head > .l .button {
   color: #bfbfbf;
 }
 .left-sidebar-inner a.menu-link:hover,
-.left-sidebar-inner .new-page-link:hover,
-.left-sidebar-inner .new-page-link:active,
-.left-sidebar-inner a.item:active:is(footer *),
 .ls-left-sidebar-open #head > .l .button:hover {
   color: #fff;
-  background-color: #fff1;
+  background-color: #3c4042;
+  opacity: 1;
+}
+.left-sidebar-inner .new-page-link {
+	background-color: #2e3234;
+}
+.left-sidebar-inner .new-page-link:hover,
+.left-sidebar-inner a.item:hover:is(footer *),
+.left-sidebar-inner a.item:hover:is(nav *) {
+  color: #fffc;
+  background-color: #3c4042;
+  opacity: 1;
+}
+.left-sidebar-inner .new-page-link:active,
+.left-sidebar-inner a.item:active:is(footer *),
+.left-sidebar-inner a.item:active:is(nav *) {
+  color: #fff;
+  background-color: #3c4042;
   opacity: 1;
 }
 .ls-left-sidebar-open #head > .l .button:active,
