@@ -10,6 +10,7 @@ const style = `
   .breadcrumb,
   .breadcrumb b,
   .references .foldable-title *:not(h2),
+  .references .initial li,
   .block-properties {
     font-size: 0.9rem;
     font-weight: 400;
