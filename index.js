@@ -139,6 +139,21 @@ const tweaks = [
     type: 'boolean',
     default: false,
   },
+  {
+    key: 'ui/filter_icon',
+    title: 'Filter icon',
+    description:
+      'Use prominent, standard colors on inactive and active filter button.',
+    type: 'boolean',
+    default: false,
+  },
+  {
+    key: 'ui/filter_chips',
+    title: 'Filter chips',
+    description: 'Replace border with background color on filter chips.',
+    type: 'boolean',
+    default: false,
+  },
   // feature
   {
     key: 'all',

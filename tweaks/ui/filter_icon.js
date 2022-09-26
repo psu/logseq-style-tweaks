@@ -1,0 +1,16 @@
+const style = `
+a.filter.fade-link {
+  color: var(--ls-link-text-color);
+}
+a.filter.fade-link .text-green-400 {
+  display: block;
+  width: 1.9rem;
+  height: 1.9rem;
+  color: var(--ls-primary-background-color);
+  background-color: var(--ls-link-text-color);
+  border-radius: 50%;
+  padding: 0.2rem;
+  opacity: .8;
+}
+`
+export default style
