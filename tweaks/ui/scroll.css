@@ -1,4 +1,3 @@
-const style = `
 .light-theme,
 .white-theme,
 html[data-theme='light'],
@@ -9,5 +8,3 @@ html[data-theme='dark'] {
 ::-webkit-scrollbar-thumb {
   border-radius: var(--ls-scrollbar-width);
 }
-`
-export default style

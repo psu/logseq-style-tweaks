@@ -1,6 +1,5 @@
-const style = `
 .page-hierarchy h2::before {
-  content: "Namespace pages ";
+  content: 'Namespace pages ';
   color: var(--ls-primary-text-color);
 }
 .light-theme .page-hierarchy h2.font-bold.opacity-30 {
@@ -9,5 +8,3 @@ const style = `
 .dark-theme .page-hierarchy h2.font-bold.opacity-30 {
   color: #fff0;
 }
-`
-export default style

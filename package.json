@@ -5,10 +5,17 @@
   "description": "A smorgasbord of small and large style tweaks to the Logseq content and UI.",
   "repo": "psu/logseq-style-tweaks",
   "license": "MIT",
-  "main": "index.js",
-  "scripts": {},
+  "main": "dist/index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "@logseq/libs": "^0.0.9"
+  },
+  "devDependencies": {
+    "vite": "^3.1.6"
   },
   "logseq": {
     "id": "logseq-style-tweaks",

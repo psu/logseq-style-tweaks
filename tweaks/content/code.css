@@ -1,4 +1,3 @@
-const style = `
 .cm-s-solarized.cm-s-light {
   background-color: var(--ls-quaternary-background-color);
   text-shadow: none;
@@ -20,5 +19,3 @@ const style = `
   text-shadow: none;
   color: var(--ls-secondary-text-color);
 }
-`
-export default style

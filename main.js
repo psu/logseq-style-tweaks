@@ -1,3 +1,5 @@
+import '@logseq/libs'
+import styles from './tweaks'
 const tweaks = [
   // content tweaks
   {
@@ -163,7 +165,6 @@ const tweaks = [
     default: '',
   },
 ]
-
 // entry
 const main = () => {
   logseq.useSettingsSchema(tweaks)
@@ -173,18 +174,16 @@ const main = () => {
 // parse tweaks and update style
 const parse_tweaks = async () => {
   let style_concat = ''
-  for (setting in logseq.settings) {
+
+  for (let setting in logseq.settings) {
     if (setting.indexOf('/') == -1) continue
     if (logseq.settings[setting] === true) {
-      //const filename = tweaks.find(x => x.key == setting).key
-      try {
-        const { default: tweak_style } = await import(`./tweaks/${setting}.js`)
-        style_concat = style_concat + tweak_style
-      } catch (err) {
-        console.log(`Error loading tweak file (${setting}): ${err}`)
-      }
+      const key_split = setting.split('/')
+      const tweak_style = styles[key_split[0]][key_split[1]]
+      style_concat = style_concat + tweak_style
     }
   }
+  style_concat = style_concat.replace(/(\r\n|\n|\r)/gm, '')
   logseq.provideStyle(style_concat)
   logseq.updateSettings({ all: style_concat })
 }
