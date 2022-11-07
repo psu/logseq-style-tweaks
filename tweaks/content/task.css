@@ -48,9 +48,11 @@
   border-radius: 0.15rem;
 }
 .waiting .block-marker {
+  z-index: 10;
   opacity: 0.7;
 }
 .waiting input {
+  z-index: 20;
   opacity: 0.3;
 }
 .dark-theme .block-marker {
