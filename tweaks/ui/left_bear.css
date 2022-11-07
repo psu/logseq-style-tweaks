@@ -96,6 +96,9 @@
   background-color: transparent;
   opacity: 1;
 }
+.left-sidebar-inner .create {
+  background: none;
+}
 .left-sidebar-inner a.item:hover:is(footer *) {
   opacity: 1;
 }
