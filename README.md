@@ -1,6 +1,6 @@
 # Thos repo is no longer maintained 
 
-~~Sorry, I'm not using Logseq currently so it's not viable for me to update the repo.~~
+==Sorry, I'm not using Logseq currently so it's not viable for me to update the repo.==
 
 ---
 
