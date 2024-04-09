@@ -1,3 +1,9 @@
+# Thos repo is no longer maintained 
+
+~~Sorry, I'm not using Logseq currently so it's not viable for me to update the repo.~~
+
+---
+
 # Logseq Style Tweaks Plugin
 
 This is a smorgasbord of small and large tweaks, activate the ones you like. The plugin is to be used together with the default themes (or custom ones) to tweak specific parts of Logseq's UI. List of tweaks divided into three areas, Content, Font, and UI:
